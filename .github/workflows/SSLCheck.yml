@@ -29,13 +29,13 @@ jobs:
     - name: Install & Build
       run: |
         npm i
-        git clone https://github.com/ChenYFan/CheckSSL --depth=2
+        git clone https://github.com/qystudio0/CheckSSL --depth=2
         npm run build
         cd CheckSSL
         chmod +x checker.sh
         ./checker.sh blog.qystudio.ltd qystudio.ltd status.qystudio.ltd
         cp -rf ./output/ct.json ../public/ct.json
-        echo "ssl.cyfan.top" > ../public/CNAME
+        echo "ssl.qystudio.ltd" > ../public/CNAME
         
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
