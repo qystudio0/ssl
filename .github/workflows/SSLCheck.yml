@@ -31,7 +31,6 @@ jobs:
         npm i
         git clone https://github.com/qystudio0/CheckSSL --depth=2
         npm run build
-        cd ssl
         cd CheckSSL
         chmod +x checker.sh
         ./checker.sh qystudio.ltd status.qystudio.ltd qystudio.ml ssl.qystudio.ltd
