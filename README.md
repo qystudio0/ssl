@@ -28,5 +28,5 @@
 
 3.保存，该项目会在UTC每天早上5点更新SSL信息
 
-## Demo：https://ssl.cyfan.top
+## Demo：https://ssl.qystudio.ltd
 ## 原作者项目：[SukkaLab/ssl](https://github.com/SukkaLab/ssl)
