@@ -33,7 +33,7 @@ jobs:
         npm run build
         cd CheckSSL
         chmod +x checker.sh
-        ./checker.sh blog.qystudio.ltd qystudio.ltd status.qystudio.ltd
+        ./checker.sh qystudio.ltd status.qystudio.ltd qystudio.ml ssl.qystudio.ltd
         cp -rf ./output/ct.json ../public/ct.json
         echo "ssl.qystudio.ltd" > ../public/CNAME
         
